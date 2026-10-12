@@ -12,6 +12,13 @@ Each release groups changes as **Major** / **Minor**, then **Added** / **Removed
 
 _Unreleased — new work accumulates here until it earns a version bump. The next batch will pin its own version; `package.json` reads **3.3.0** (just released below)._
 
+### Minor Changes
+
+#### 🔧 Fixed
+
+- **👤 User-facing**
+  - **Compare shows a changed line as the old line over the new one, marking only the words that differ.** Both lines are faintly tinted and the reworded words are solid. A line rewritten from scratch is tinted whole, and its replacement starts on a line of its own.
+
 ---
 
 <details>
